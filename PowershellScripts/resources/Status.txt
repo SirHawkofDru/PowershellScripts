@@ -1,0 +1,26 @@
+<Window x:Class="PowershellGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PowershellGUI"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="400" Width="600">
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="200" Source="ScriptDirectory\sunriselogo.png" Grid.Row="2"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="238,0,0,0" TextWrapping="Wrap" Text="This tool can be used to manage your Tomcat services and webapps as well as restoring databases" VerticalAlignment="Top" FontSize="16" Width="350" Height="90" FontFamily="MS Reference Sans Serif"/>
+        <Button x:Name="button1" Content="Start Tomcat 7" HorizontalAlignment="Left" Height="75" Margin="5,200,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Button x:Name="button2" Content="Tomcat 8" HorizontalAlignment="Left" Height="75" Margin="205,200,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Button x:Name="button3" Content="Mail Processor" HorizontalAlignment="Left" Height="75" Margin="405,200,5,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Button x:Name="button4" Content="Refresh" HorizontalAlignment="Left" Height="75" Margin="5,285,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Button x:Name="button5" Content="Main Menu" HorizontalAlignment="Left" Height="75" Margin="205,285,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Button x:Name="button" Content="Exit" HorizontalAlignment="Left" Height="75" Margin="405,285,0,0" VerticalAlignment="Top" Width="190" FontSize="14" FontFamily="MS Reference Sans Serif"/>
+        <Label x:Name="labelT7" Content="Tomcat 7" HorizontalAlignment="Left" Height="30" Margin="5,125,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Label x:Name="labelT8" Content="Tomcat 8" HorizontalAlignment="Left" Height="30" Margin="205,125,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <Label x:Name="labelSMP" Content="Mail Processor" HorizontalAlignment="Left" Height="30" Margin="405,125,0,0" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <TextBox x:Name="textBoxT7" HorizontalAlignment="Left" Height="30" Margin="5,155,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <TextBox x:Name="textBoxT8" HorizontalAlignment="Left" Height="30" Margin="205,155,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+        <TextBox x:Name="textBoxSMP" HorizontalAlignment="Left" Height="30" Margin="405,155,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top" Width="190" FontFamily="MS Reference Sans Serif" FontSize="14"/>
+
+    </Grid>
+</Window>
